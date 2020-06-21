@@ -26,3 +26,76 @@ body{
     padding: 0 20px;
     margin: 0 auto;
 }
+
+/*Site header */
+
+.site-header{
+    padding-top: 40px;
+    padding-bottom: 23px;
+    border-top: 4px solid #295093;
+    background-color: #F6F6F9;
+}
+
+.site-header__top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.site-header__actions{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+/*Exchange rates  */
+
+.exchange-rates{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 17px;
+    color: #7A7A7A;;
+}
+
+.exchange-rates__icon{
+   color: #285193;
+}
+.exchange-rates__item:not(:last-child){
+    margin-right: 26px;
+}
+
+/*Search button */
+.search-button{
+    padding: 8px;
+    border: none;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+
+/*Language toggler */
+.language-toggler{
+    padding: 10px;
+    border: none;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+
+/* Telegram sub */
+.telegram-sub {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1E96C8;
+    background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    text-decoration: none;
+  }
