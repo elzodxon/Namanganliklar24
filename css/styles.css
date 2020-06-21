@@ -50,7 +50,21 @@ body{
     flex-wrap: wrap;
     margin-left: auto;
 }
+.site-header__exchange-rates{
+    margin-left: 17px;
+}
 
+.site-header__search-button{
+    margin-right: 22px;
+}
+
+.site-header__language-toggler{
+    margin-right: 24px;
+}
+
+.site-header__logo{
+    margin-right: 17px;
+}
 /*Logo */
 
 .logo{
@@ -68,9 +82,9 @@ body{
     padding: 0;
     list-style-type: none;
     align-items: center;
-    margin-left: 17px;
     color: #7A7A7A;;
 }
+
 
 .exchange-rates__icon{
    color: #285193;
@@ -82,20 +96,37 @@ body{
 /*Search button */
 .search-button{
     padding: 8px;
-    margin-right: 22px;
     border: none;
     background-color: #ffff;
     border-radius: 5px;
+}
+
+.search-button__wrapper{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: c;
 }
 
 
 /*Language toggler */
 .language-toggler{
     padding: 10px;
-    margin-right: 24px;
     border: none;
     background-color: #ffff;
     border-radius: 5px;
+}
+
+.language-toggler__img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.language-toggler__wrapper{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
 }
 
 
@@ -109,4 +140,13 @@ body{
     background-color: #1E96C8;
     background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
     text-decoration: none;
+  }
+
+  .telegram-sub:hover{
+      background-color: #37AEE2;
+    background-image: linear-gradient(90deg, #37AEE2.07%, #1E96C8   85.96%); 
+  }
+
+  .telegram-sub__img{
+      margin-right: 7px;
   }
