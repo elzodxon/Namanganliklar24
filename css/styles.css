@@ -50,7 +50,17 @@ body{
     flex-wrap: wrap;
     margin-left: auto;
 }
+.site-header__exchange-rates{
+    margin-left: 17px;
+}
 
+.site-header__search-button{
+    margin-right: 22px;
+}
+
+.site-header__language-toggler{
+    margin-right: 24px;
+}
 /*Logo */
 
 .logo{
@@ -68,9 +78,9 @@ body{
     padding: 0;
     list-style-type: none;
     align-items: center;
-    margin-left: 17px;
     color: #7A7A7A;;
 }
+
 
 .exchange-rates__icon{
    color: #285193;
@@ -82,17 +92,16 @@ body{
 /*Search button */
 .search-button{
     padding: 8px;
-    margin-right: 22px;
     border: none;
     background-color: #ffff;
     border-radius: 5px;
 }
 
 
+
 /*Language toggler */
 .language-toggler{
     padding: 10px;
-    margin-right: 24px;
     border: none;
     background-color: #ffff;
     border-radius: 5px;
