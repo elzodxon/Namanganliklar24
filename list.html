@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namanganliklar24 - новости</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page__body">
+
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <!-- Site-header top -->
+      <div class="site-header__top">
+        <a class="site-header__logo logo" href="index.html">
+          <img class="logo__img" src="img/logo.svg" alt="Лого сайта Namanganliklar24" width="303" height="33">
+        </a>
+      
+        <ul class="site-header__exchange-rates exchange-rates">
+          <li class="exchange-rates__item">
+            <b class="exchange-rates__icon">&dollar;</b> 
+            <span class="exchange-rates__value">10137.2</span>
+          </li>
+          <li class="exchange-rates__item">
+            <b class="exchange-rates__icon">P</b> 
+            <span class="exchange-rates__value">138.26</span>
+          </li>
+          <li class="exchange-rates__item">
+            <b class="exchange-rates__icon">&euro;</b> 
+            <span class="exchange-rates__value">10988.72</span>
+          </li>
+        </ul>
+      
+        <div class="site-header__actions">
+          <button class="site-header__search-button search-button" type="button">
+            <span class="search-button__wrapper">
+              <img class="search-button__img" src="img/icon-magnify.svg" alt="Иконка лупы" width="24" height="24">
+            </span>
+          </button>
+          <button class="site-header__language-toggler language-toggler" type="button">
+            <span class="language-toggler__wrapper">
+              <img class="language-toggler__img" src="img/icon-russia-flag.svg" alt="Иконка флага России" width="20" height="20">
+              <span class="language-toggler__text">РУ</span>
+            </span>
+          </button>
+          <a class="site-header__telegram-sub telegram-sub telegram-sub--dark" href="https://tme.to/mayoquz" target="_blank">
+            <img class="telegram-sub__img" src="img/icon-telegram.svg" alt="Лого мессенжера Телеграм" width="20" height="20">
+            <span class="telegram-sub__text">Подписатся</span>
+          </a>
+        </div><!-- site-header__actions -->
+
+        <button class="site-header__toggler" type="button">Меню</button>
+      </div><!-- site-header__top -->
+
+      <!-- SITENAV -->
+      <nav class="sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Узбекистана</a>
+          </li>
+          <li class="sitenav__item sitenav__item--active">
+            <a class="sitenav__link" href="list.html">Мир</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Экономика</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Политика</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Общество</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Технологии</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Спорт</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Культура</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Происшествия</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="list.html">Туризм</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Top banner -->
+      <aside class="top-banner">
+        <a class="top-banner__link" href="#" target="_blank">
+          <img class="top-banner__img" src="img/nrg-banner.jpg" srcset="img/nrg-banner.jpg 1x, img/nrg-banner@2x.jpg 2x" alt="NRG company banner" width="1200" height="99">
+        </a>
+      </aside>
+
+    </div><!-- container -->
+  </header>
+
+
+  <!-- MAIN-CONTENT -->
+  <main class="main-content">
+    <div class="container">
+      
+      <!-- COVID-INFO -->
+      <section class="covid-info">
+        <h2 class="covid-info__heading">Коронавирус COVID-19 в Узбекистане</h2>
+        <ul class="covid-info__stats-list">
+          <li class="covid-info__stat covid-info__stat--infected">
+            <div>
+              <h3 class="covid-info__stat-title covid-info__stat-title--red">Инфицированы</h3>
+              <b class="covid-info__stat-value">2753</b>
+            </div>
+          </li>
+          <li class="covid-info__stat covid-info__stat--recovered">
+            <div>
+              <h3 class="covid-info__stat-title covid-info__stat-title--green">Выздоровели</h3>
+              <b class="covid-info__stat-value">2245</b>
+            </div>
+          </li>
+          <li class="covid-info__stat covid-info__stat--dead">
+            <div>
+              <h3 class="covid-info__stat-title">Умерли</h3>
+              <b class="covid-info__stat-value">12</b>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+
+      <!-- LATEST-POPULAR-NEWS -->
+      <div class="latest-popular-news">
+        <!-- NEWS-LIST -->
+        <section class="news-list">
+          <h2 class="news-list__heading">Последние новости</h2>
+          <ul class="news-list__list">
+            <li class="news-list__item">
+              <div class="news-list__img-wrapper">
+                <img class="news-list__img" src="img/sardoba-list.jpg" srcset="img/sardoba-list.jpg 1x, img/sardoba-list@2x.jpg 2x" alt="По факту прорыва Сардобинского водохранилища возбуждено уголовное дело" width="252" height="143">
+              </div>
+              <div class="news-list__body">
+                <h3 class="news-list__title">
+                  <a class="news-list__link" href="article.html">По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</a>
+                </h3>
+                <p class="news-list__text">После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.</p>
+                <div class="news-list__date-wrapper">
+                  <img class="news-list__date-icon" src="img/icon-date.svg" alt="Иконка календаря" width="18" height="20">
+                  <time class="news-list__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+                </div>
+              </div>
+            </li>
+            <li class="news-list__item">
+              <div class="news-list__img-wrapper">
+                <img class="news-list__img" src="img/karantin-rules.jpg" srcset="img/karantin-rules.jpg 1x, img/karantin-rules@2x.jpg 2x" alt="Мирзиёев: «Нам следовало бы принять некоторые правила карантина как часть повседневной жизни»" width="252" height="143">
+              </div>
+              <div class="news-list__body">
+                <h3 class="news-list__title">
+                  <a class="news-list__link" href="article.html">Мирзиёев: «Нам следовало бы принять некоторые правила карантина как часть повседневной жизни»</a>
+                </h3>
+                <p class="news-list__text">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</p>
+                <div class="news-list__date-wrapper">
+                  <img class="news-list__date-icon" src="img/icon-date.svg" alt="Иконка календаря" width="18" height="20">
+                  <time class="news-list__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+                </div>
+              </div>
+            </li>
+            <li class="news-list__item">
+              <div class="news-list__img-wrapper">
+                <img class="news-list__img" src="img/e-ticket.jpg" srcset="img/e-ticket.jpg 1x, img/e-ticket@2x.jpg 2x" alt="В Ташкенте планируют ввести новую систему электронных проездных билетов" width="252" height="143">
+              </div>
+              <div class="news-list__body">
+                <h3 class="news-list__title">
+                  <a class="news-list__link" href="article.html">В Ташкенте планируют ввести новую систему электронных проездных билетов</a>
+                </h3>
+                <p class="news-list__text">Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где проходят основные маршруты.</p>
+                <div class="news-list__date-wrapper">
+                  <img class="news-list__date-icon" src="img/icon-date.svg" alt="Иконка календаря" width="18" height="20">
+                  <time class="news-list__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+                </div>
+              </div>
+            </li>
+            <li class="news-list__item">
+              <div class="news-list__img-wrapper">
+                <img class="news-list__img" src="img/sardoba-list.jpg" srcset="img/sardoba-list.jpg 1x, img/sardoba-list@2x.jpg 2x" alt="По факту прорыва Сардобинского водохранилища возбуждено уголовное дело" width="252" height="143">
+              </div>
+              <div class="news-list__body">
+                <h3 class="news-list__title">
+                  <a class="news-list__link" href="article.html">По факту прорыва Сардобинского водохранилища возбуждено уголовное дело</a>
+                </h3>
+                <p class="news-list__text">После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.</p>
+                <div class="news-list__date-wrapper">
+                  <img class="news-list__date-icon" src="img/icon-date.svg" alt="Иконка календаря" width="18" height="20">
+                  <time class="news-list__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+                </div>
+              </div>
+            </li>
+            <li class="news-list__item">
+              <div class="news-list__img-wrapper">
+                <img class="news-list__img" src="img/karantin-rules.jpg" srcset="img/karantin-rules.jpg 1x, img/karantin-rules@2x.jpg 2x" alt="Мирзиёев: «Нам следовало бы принять некоторые правила карантина как часть повседневной жизни»" width="252" height="143">
+              </div>
+              <div class="news-list__body">
+                <h3 class="news-list__title">
+                  <a class="news-list__link" href="article.html">Мирзиёев: «Нам следовало бы принять некоторые правила карантина как часть повседневной жизни»</a>
+                </h3>
+                <p class="news-list__text">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</p>
+                <div class="news-list__date-wrapper">
+                  <img class="news-list__date-icon" src="img/icon-date.svg" alt="Иконка календаря" width="18" height="20">
+                  <time class="news-list__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+                </div>
+              </div>
+            </li>
+            <li class="news-list__item">
+              <div class="news-list__img-wrapper">
+                <img class="news-list__img" src="img/e-ticket.jpg" srcset="img/e-ticket.jpg 1x, img/e-ticket@2x.jpg 2x" alt="В Ташкенте планируют ввести новую систему электронных проездных билетов" width="252" height="143">
+              </div>
+              <div class="news-list__body">
+                <h3 class="news-list__title">
+                  <a class="news-list__link" href="article.html">В Ташкенте планируют ввести новую систему электронных проездных билетов</a>
+                </h3>
+                <p class="news-list__text">Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где проходят основные маршруты.</p>
+                <div class="news-list__date-wrapper">
+                  <img class="news-list__date-icon" src="img/icon-date.svg" alt="Иконка календаря" width="18" height="20">
+                  <time class="news-list__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="news-list__more-wrapper">
+            <button class="button" type="button">Больше новостей</button>
+          </div>
+        </section>
+
+        <div class="popular-news-banner">
+          <!-- POPULAR-NEWS -->
+          <section class="popular-news">
+            <h2 class="popular-news__heading">Cамые популярные новости</h2>
+            <ul class="popular-news__list">
+              <li class="popular-news__item">
+                <h3 class="popular-news__title">
+                  <a class="popular-news__link" href="article.html">По факту прорыва Сардобинского водохранилища 
+                    возбуждено уголовное дело</a>
+                </h3>
+                <time class="popular-news__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+              </li>
+              <li class="popular-news__item">
+                <h3 class="popular-news__title">
+                  <a class="popular-news__link" href="article.html">По факту прорыва Сардобинского водохранилища 
+                    возбуждено уголовное дело</a>
+                </h3>
+                <time class="popular-news__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+              </li>
+              <li class="popular-news__item">
+                <h3 class="popular-news__title">
+                  <a class="popular-news__link" href="article.html">По факту прорыва Сардобинского водохранилища 
+                    возбуждено уголовное дело</a>
+                </h3>
+                <time class="popular-news__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+              </li>
+              <li class="popular-news__item">
+                <h3 class="popular-news__title">
+                  <a class="popular-news__link" href="article.html">По факту прорыва Сардобинского водохранилища 
+                    возбуждено уголовное дело</a>
+                </h3>
+                <time class="popular-news__date" datetime="2020-05-15 11:31">11:31 / 15.05.2020</time>
+              </li>
+            </ul>
+          </section>
+
+          <!-- SIDEBAR BANNER -->
+          <aside class="sidebar-banner">
+            <a class="sidebar-banner__link" href="https://tme.to/mayoquz" target="_blank">
+              <img class="sidebar-banner__img" src="img/ucell-banner.jpg" srcset="img/ucell-banner.jpg 1x, img/ucell-banner@2x.jpg 2x" alt="UCell banner">
+            </a>
+          </aside>
+        </div>
+      </div><!-- latest-popular-news -->
+    </div>
+  </main>
+
+
+  <!-- SITE-FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <a class="site-footer__logo" href="#">
+          <img class="site-footer_logo-img" src="img/logo-white.svg" alt="Namanganliklar24 logo white" width="173" height="21">
+        </a>
+        <p class="site-footer__sub-text">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей</p>
+        <a class="site-footer__telegram-sub telegram-sub telegram-sub--white" href="https://tme.to/mayoquz" target="_blank">
+          <img class="telegram-sub__img" src="img/icon-telegram-blue.svg" alt="Лого мессенжера Телеграм" width="20" height="22">
+          <span class="telegram-sub__text">Подписатся</span>
+        </a>
+      </div>
+
+      <hr class="site-footer__divider">
+
+      <div class="site-footer__bottom">
+        <section class="site-footer__about">
+          <h2 class="site-footer__heading">О сайте</h2>
+          <p class="site-footer__text">Воспроизводство, копирование, тиражирование, распространение и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.</p>
+        </section>
+
+        <ul class="site-footer__nav">
+          <li class="site-footer__nav-item">
+            <a class="site-footer__nav-link" href="#">Информация о сайте</a>
+          </li>
+          <li class="site-footer__nav-item">
+            <a class="site-footer__nav-link" href="#">Напишите нам</a>
+          </li>
+          <li class="site-footer__nav-item">
+            <a class="site-footer__nav-link" href="#">Реклама</a>
+          </li>
+          <li class="site-footer__nav-item">
+            <a class="site-footer__nav-link" href="#">Прислать новость</a>
+          </li>
+          <li class="site-footer__nav-item">
+            <a class="site-footer__nav-link" href="#">Использование материалов</a>
+          </li>
+          <li class="site-footer__nav-item">
+            <a class="site-footer__nav-link" href="#">Темы дня</a>
+          </li>
+          <li class="site-footer__nav-item">
+            <a class="site-footer__nav-link" href="#">Наша команда</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
